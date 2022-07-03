@@ -107,6 +107,29 @@ EmpId[x]=line.substr(0,3);
 EmpName[x]=line.substr(4,l-4);
 x++;
 
+
+
+
+//int id_start=line.find("#")+1;
+	//int id_end=line.find(":");
+
+    //int name_start =line.find(":")+1;
+	//int name_end = line.find("*");
+
+
+
+	//int  age_start= line.find("*")+1;
+	//int age_end= line.find("@");
+
+	//int darasa_start=line.find("@")+1;;
+	//int darasa_end=line.find("%");
+
+   // cout<<"Name: "<<line.substr(name_start, (name_end - name_start))<<" ";
+   // cout<<"Id: "<<line.substr(id_start, (id_end - id_start))<<" ";
+   // cout<<"Age: "<<line.substr(age_start, (age_end - age_start))<<" ";
+   //  cout<<"Class: "<<line.substr(darasa_start, (darasa_end - darasa_start))<<" ";
+   // cout<<endl<<endl;
+
 }
 }
 
